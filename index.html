@@ -28,16 +28,11 @@
   }
   html,body{height:100%;}
   body{
-    margin:0; background:var(--bg);
+    margin:0; background:url('./BONKED (1).jpg') center/cover no-repeat fixed;
     color:var(--ink); font:16px/1.4 system-ui,Segoe UI,Roboto,Inter,Arial;
     overflow-x:hidden;
   }
-  /* subtle vignette so it feels round + poster-like */
-  body::before{
-    content:""; position:fixed; inset:-10vmax;
-    background:radial-gradient(60% 60% at 50% 40%, #0d3b30 0%, transparent 55%);
-    pointer-events:none; z-index:0;
-  }
+
 
   .wrap{max-width:var(--maxw); margin:0 auto; padding:56px 20px 96px; position:relative; z-index:1;}
   header{position:relative; display:grid; place-items:center; gap:16px; text-align:center; min-height:400px;}
