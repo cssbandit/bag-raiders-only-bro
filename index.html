@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BRO - Bag Raiders Only</title>
+<meta name="description" content="BRO - Bag Raiders Only. If you are not raiding, you are the bag. Join the community and buy $BRO token on pump.fun">
+<meta name="keywords" content="BRO, Bag Raiders Only, cryptocurrency, token, pump.fun, Solana">
+<meta name="author" content="BRO - Bag Raiders Only">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="BRO - Bag Raiders Only">
+<meta property="og:description" content="If you are not raiding, you are the bag. Join the BRO community!">
+<meta property="og:type" content="website">
+<meta property="og:url" content="">
+<meta property="og:image" content="./img/bro-logo.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BRO - Bag Raiders Only">
+<meta name="twitter:description" content="If you are not raiding, you are the bag. Join the BRO community!">
+<meta name="twitter:image" content="./img/bro-logo.png">
+<link rel="icon" type="image/png" href="./img/bro-logo.png">
+<link rel="apple-touch-icon" href="./img/bro-logo.png">
+<style>
+  :root{
+    --bg:#082b22;        /* same deep green */
+    --ink:#fff;          /* white outline vibe */
+    --accent:#ffe84a;    /* yellow */
+    --maxw:980px;
+  }
+  html,body{height:100%;}
+  body{
+    margin:0; background:var(--bg);
+    color:var(--ink); font:16px/1.4 system-ui,Segoe UI,Roboto,Inter,Arial;
+    overflow-x:hidden;
+  }
+  /* subtle vignette so it feels round + poster-like */
+  body::before{
+    content:""; position:fixed; inset:-10vmax;
+    background:radial-gradient(60% 60% at 50% 40%, #0d3b30 0%, transparent 55%);
+    pointer-events:none; z-index:0;
+  }
+
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:56px 20px 96px; position:relative; z-index:1;}
+  header{position:relative; display:grid; place-items:center; gap:16px; text-align:center; min-height:400px;}
+  .logo{width:min(460px,84vw); filter:drop-shadow(0 3px 0 #0004); position:relative; z-index:2;}
+  h1{margin:8px 0 0; font-weight:800; letter-spacing:.5px; position:relative; z-index:2;}
+  .tag{color:var(--accent); font-weight:700; opacity:.95; position:relative; z-index:2;}
+
+  .cta{display:flex; gap:12px; flex-wrap:wrap; justify-content:center; margin:12px 0 2px; position:relative; z-index:2;}
+  .btn{
+    background:var(--accent); color:#06251d; border:2px solid #00000033;
+    padding:12px 18px; border-radius:999px; font-weight:800; text-decoration:none;
+    box-shadow:0 6px 0 #00000033; transform:translateY(0); transition:.12s;
+  }
+  .btn:hover{transform:translateY(-2px);}
+  .btn:active{transform:translateY(2px) scale(.99); box-shadow:0 2px 0 #00000033;}
+
+  /* floating elements scattered around the screen */
+  .orb{position:fixed; user-select:none; cursor:grab; touch-action:none;
+       filter:drop-shadow(0 4px 0 #00000033); z-index:1;}
+  .orb:active{cursor:grabbing;}
+
+  /* wiggle animations - all elements wiggle by default */
+  @keyframes wiggle{0%,100%{transform:translate(0,0) rotate(0)} 25%{transform:translate(2px,-2px) rotate(-2deg)} 50%{transform:translate(-2px,2px) rotate(2deg)} 75%{transform:translate(2px,2px) rotate(-1deg)}}
+  
+  .moon{animation:wiggle .45s ease-in-out infinite alternate-reverse;}
+  .rocket{animation:wiggle .28s ease-in-out infinite alternate-reverse;}
+  .arrow{animation:wiggle .35s ease-in-out infinite alternate-reverse;}
+  .bag{animation:wiggle .38s ease-in-out infinite alternate-reverse;}
+
+
+
+
+
+  @media (max-width:600px){ header{min-height:350px;} }
+</style>
+</head>
+<body>
+  <div class="wrap">
+         <header>
+               <!-- Floating pieces - scattered all around the screen with varied sizes -->
+        <img class="orb moon"   style="left:5%;  top:10%;  width:120px"  src="./img/moon.png"   alt="moon" />
+        <img class="orb rocket" style="left:85%; top:15%;  width:140px"  src="./img/rocket.png" alt="rocket" />
+        <img class="orb arrow"  style="left:15%; top:60%;  width:100px"  src="./img/arrow1.png" alt="arrow" />
+        <img class="orb arrow"  style="left:80%; top:70%;  width:90px"   src="./img/arrow2.png" alt="arrow" />
+        <img class="orb bag"    style="left:50%; top:80%;  width:130px"  src="./img/bag.png"    alt="bag" />
+
+        
+
+               <img class="logo" src="./img/bro-logo.png" alt="BRO - Bag Raiders Only" />
+        <h1>BRO - Bag Raiders Only</h1>
+        <div class="tag">If you are not raiding, you are the bag.</div>
+        <div class="contract" style="font-family: monospace; font-size: 14px; color: var(--accent); opacity: 0.8; margin: 8px 0; position: relative; z-index: 2;">
+          6qq5Be6SSEFM4iH8sowniTEqKMuDFBPMgfqNQCLNpump
+        </div>
+        <div class="cta">
+          <a class="btn" href="https://pump.fun/coin/6qq5Be6SSEFM4iH8sowniTEqKMuDFBPMgfqNQCLNpump" target="_blank">Buy $BRO</a>
+          <a class="btn" href="https://pump.fun/coin/6qq5Be6SSEFM4iH8sowniTEqKMuDFBPMgfqNQCLNpump" target="_blank">Chart</a>
+          <a class="btn" href="https://x.com/i/communities/1957065267596452122" target="_blank">Community</a>
+        </div>
+     </header>
+  </div>
+
+<script>
+  // Light drag for orbs - no libraries
+  const orbs = document.querySelectorAll('.orb');
+  orbs.forEach(el => {
+    let sx=0, sy=0, ox=0, oy=0, dragging=false;
+
+    const down = e => {
+      dragging=true; el.style.transition='none';
+      const p = e.touches ? e.touches[0] : e;
+      sx = p.clientX; sy = p.clientY;
+      const r = el.getBoundingClientRect();
+      ox = r.left + window.scrollX; oy = r.top + window.scrollY;
+      e.preventDefault();
+    };
+    const move = e => {
+      if(!dragging) return;
+      const p = e.touches ? e.touches[0] : e;
+      const dx = p.clientX - sx, dy = p.clientY - sy;
+      el.style.left = (ox + dx) + 'px';
+      el.style.top  = (oy + dy) + 'px';
+    };
+    const up = () => { dragging=false; el.style.transition='transform .2s'; };
+
+    el.addEventListener('mousedown', down);
+    el.addEventListener('touchstart', down, {passive:false});
+    window.addEventListener('mousemove', move);
+    window.addEventListener('touchmove', move, {passive:false});
+    window.addEventListener('mouseup', up);
+    window.addEventListener('touchend', up);
+  });
+
+  // Optional - randomize starting positions a little for variety
+  (function jitter(){
+    document.querySelectorAll('.orb').forEach((el,i)=>{
+      const n = (i*37)%9;
+      el.style.transform = `translate(${(n-4)*1.2}px, ${(4-n)*1.2}px)`;
+    });
+  })();
+</script>
+</body>
+</html>
